@@ -1,0 +1,8 @@
+Main repositoryof Anega. It includes the full game.
+
+The following external components from Unity Asset Store have to be added for full fuctionality
+
+UMA: https://assetstore.unity.com/packages/3d/characters/uma-2-unity-multipurpose-avatar-35611 ==> Assets\UMA
+Cirkoniaa Studio Double Sided Shaders: https://assetstore.unity.com/packages/vfx/shaders/free-double-sided-shaders-23087 ==> Assets\Models\ImportedAssets\Ciconia Studio
+HQRocks: https://assetstore.unity.com/packages/3d/props/exterior/hq-rocks-pack-66895 ==> Assets\Models\ImportedAssets\HQRocks
+Rock Package: https://assetstore.unity.com/packages/3d/props/exterior/rock-package-118182 ==> Assets\Models\ImportedAssets\Rock Package
