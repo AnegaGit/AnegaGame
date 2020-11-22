@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: Starstripe
+  m_EditorClassIdentifier: 
+  itemName: Starstripe
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 3468215163490156702, guid: 3cd83e37a728a644ea2fa46c468134d0,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions:
+  - VegetationType: 10
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 2
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 12
+      minAmount: 0
+      maxAmount: 4
+  - VegetationType: 10
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 1.5
+      minAmount: 1
+      maxAmount: 8
+  - VegetationType: 20
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 2
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 12
+      minAmount: 0
+      maxAmount: 4
+  - VegetationType: 20
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 1.5
+      minAmount: 1
+      maxAmount: 8
+  - VegetationType: 31
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 1.5
+      minAmount: 0
+      maxAmount: 8
+  - VegetationType: 32
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 0ef53d3c2fbd9d646afca632350cbe7d, type: 2}
+      minDistance: 0
+      maxDistance: 3
+      minAmount: 0
+      maxAmount: 8
+  lifePhases:
+  - gatheringSkill: 0
+    modelPhase: 0
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: 0
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 7
+  - gatheringSkill: 0
+    modelPhase: 1
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: 0
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 2
+    nextPhaseTimeoutSpecial: 2
+    dayInPhase: 2
+  - gatheringSkill: 0
+    modelPhase: 2
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: 0
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 3
+    nextPhaseTimeoutSpecial: 3
+    dayInPhase: 4
+  - gatheringSkill: 11
+    modelPhase: 3
+    bestSkillLevel: 5
+    itemsInResource: 6
+    voidTriesMin: 0.05
+    voidTriesMax: 0.202
+    content:
+    - item: {fileID: 11400000, guid: d6445e0ef53db8347bcab86ccca990d6, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0017
+    nextPhaseUsedDefaultProbability: 0.9
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.8
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 4
+  - gatheringSkill: 11
+    modelPhase: 4
+    bestSkillLevel: 5
+    itemsInResource: 2
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content:
+    - item: {fileID: 11400000, guid: 61ac0a21cf127c544aaf554a1638de70, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: -1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 7
+  changeInvisibleOnly: 1

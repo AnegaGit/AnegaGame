@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Starstripes Berry
+  m_EditorClassIdentifier: 
+  itemName: Starstripes Berry
+  maxStack: 250
+  price: 12
+  weight: 34
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Very tasty but you can harld get the color out.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: d234d378928f0344b9f53e404f3ebc23, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 900
+  modelPrefab: {fileID: 8964121674206744166, guid: 7550637c9dde4844a862b6e7028510e3,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

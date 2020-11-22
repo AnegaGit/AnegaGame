@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: OakBoard
+  m_EditorClassIdentifier: 
+  itemName: Oak board
+  maxStack: 500
+  price: 41
+  weight: 142
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    It is hard to see that it was a tree.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: b3b5b7fde7042ec40bf5928489523339, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 7891320514258123476, guid: bd0ee4ca5c84dde4d945405f15614dae,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

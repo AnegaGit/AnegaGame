@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: IronOre
+  m_EditorClassIdentifier: 
+  itemName: Iron ore
+  maxStack: 500
+  price: 49
+  weight: 153
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Some chunks that you can melt into iron.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 77e762c0775317b40b430ddb945f7b85, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 4942315058561622386, guid: ecb6bf16e1c3d15479480bfe6c2c765e,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae6250c7cd54fe43afe2e029bc1a3bd, type: 3}
+  m_Name: Holey Bag
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 70
+  weight: 250
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    A very small old holey linen bag.
+
+    It can be extended up to {MAXSLOTS} slots for items.
+
+
+    Empty bag:
+
+    Price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 702a59ea95b22354bbc3ce0e349010e3, type: 3}
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 600
+  modelPrefab: {fileID: 5375288762425004938, guid: 6c2003913522a734fbd18c0eaf75139c,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  minSlots: 2
+  maxSlots: 12
+  minContainer: 0
+  maxContainer: 0
+  itemInElement: []
+  containerInElement:
+    id: 0
+    type: 0
+    name: 
+    slots: 0
+    containers: 0
+    miscellaneousSync: 

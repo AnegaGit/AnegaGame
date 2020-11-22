@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: CoalSomeForever
+  m_EditorClassIdentifier: 
+  itemName: Coal bed
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1.6
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 1966831681649204615, guid: b0235addc33b920408b405e206c74ddf,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions: []
+  lifePhases:
+  - gatheringSkill: 9
+    modelPhase: 0
+    bestSkillLevel: 10
+    itemsInResource: 15
+    voidTriesMin: 0.1
+    voidTriesMax: 0.5
+    content:
+    - item: {fileID: 11400000, guid: 74d8db95eb5a3684f9daa21b557c6710, type: 2}
+      amount: 1
+      probability: 40
+      infoText: 
+      durability: 50
+      quality: 34
+    - item: {fileID: 11400000, guid: 74d8db95eb5a3684f9daa21b557c6710, type: 2}
+      amount: 1
+      probability: 20
+      infoText: 
+      durability: 50
+      quality: 67
+    - item: {fileID: 11400000, guid: 69d88ca0e8ec27b498b3957a462afdcc, type: 2}
+      amount: 1
+      probability: 1
+      infoText: Someone lost this torch.
+      durability: 33
+      quality: 33
+    probabilityExtraStuff: 0.05
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: 1
+    onUseEffect: {fileID: 8424231813414841202, guid: 4e203cde963b6024fb92f68eaa603696,
+      type: 3}
+    nextPhaseTimeoutDefaultProbability: 0
+    nextPhaseTimeoutDefault: 0
+    nextPhaseTimeoutSpecial: 0
+    dayInPhase: 0
+  - gatheringSkill: 0
+    modelPhase: 1
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: 0
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 0
+    nextPhaseTimeoutSpecial: 0
+    dayInPhase: 0.06
+  changeInvisibleOnly: 0

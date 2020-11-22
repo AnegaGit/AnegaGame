@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
+  m_Name: HauberkBreastplateBrightF_Recipe
+  m_EditorClassIdentifier: 
+  recipeType: Wardrobe
+  DisplayValue: HauberkF_Slot
+  compatibleRaces:
+  - HumanFemale
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: Chest
+  Hides:
+  - FemaleTorso
+  - BackskinF
+  - TrousersBeltBagF
+  - TrousersBeltPouchF
+  - LegArmorBeltF
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets:
+  - {fileID: 11400000, guid: 277727b08b6f6b642bffd1f9fc21f5b5, type: 2}
+  - {fileID: 11400000, guid: 7c4536523ce76ac418e046c75435fb96, type: 2}
+  - {fileID: 11400000, guid: c0d185e7f35d8274d9b0ffd4d571a8c2, type: 2}
+  - {fileID: 11400000, guid: 6d1df1f7e1b703f4da85e2bf8752f385, type: 2}
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"BasicHauberkF","scale":100,"copyIdx":-1,"overlays":[{"id":"HauberkBaseChainmailF_Overlay","colorIdx":0,"rect":[0,0,0,0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"BreastplateF","scale":100,"copyIdx":-1,"overlays":[{"id":"BreastplateBrightF_Overlay","colorIdx":1,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  replaces: Nothing

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Runkel Seed
+  m_EditorClassIdentifier: 
+  itemName: Runkel Seed
+  maxStack: 1000
+  price: 15
+  weight: 7
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Do you need some more runkel roots?
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: b10cdc344c2c6b24b91a9c5d6326bfa0, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1500
+  modelPrefab: {fileID: 3988095573340810729, guid: 9f584a87f0e4aba498088d36e6193fe5,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

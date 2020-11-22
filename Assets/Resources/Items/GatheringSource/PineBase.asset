@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: PineBase
+  m_EditorClassIdentifier: 
+  itemName: Pine
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1.6
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 3653229772313130171, guid: 26d13c5583845c64d9f87fb503b8298e,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0.15
+  seedActions:
+  - VegetationType: 10
+    frequency: 20
+    sizeMin: 0.7
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: c1753dd13865e9d4382759cc989dc970, type: 2}
+      minDistance: 0
+      maxDistance: 1.5
+      minAmount: 0
+      maxAmount: 0
+    - relatedItems: {fileID: 11400000, guid: c1753dd13865e9d4382759cc989dc970, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 4
+    - relatedItems: {fileID: 11400000, guid: 8575d81d7c68e3e4d9e7f830de9d72e5, type: 2}
+      minDistance: 0
+      maxDistance: 9
+      minAmount: 0
+      maxAmount: 0
+  - VegetationType: 11
+    frequency: 20
+    sizeMin: 0.6
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: c1753dd13865e9d4382759cc989dc970, type: 2}
+      minDistance: 0
+      maxDistance: 0.9
+      minAmount: 0
+      maxAmount: 0
+    - relatedItems: {fileID: 11400000, guid: c1753dd13865e9d4382759cc989dc970, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 10
+    - relatedItems: {fileID: 11400000, guid: 8575d81d7c68e3e4d9e7f830de9d72e5, type: 2}
+      minDistance: 0
+      maxDistance: 7
+      minAmount: 0
+      maxAmount: 0
+  lifePhases:
+  - gatheringSkill: 10
+    modelPhase: 0
+    bestSkillLevel: 5
+    itemsInResource: 10
+    voidTriesMin: 0.06
+    voidTriesMax: 0.853
+    content:
+    - item: {fileID: 11400000, guid: 102e50b42c9fc1c47b53f3d87a4e4fc9, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    - item: {fileID: 11400000, guid: 4b52ef9fbceb47844a8cbb21f61f43bd, type: 2}
+      amount: 1
+      probability: 3
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0094
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: 1
+    onUseEffect: {fileID: 8424231813414841202, guid: 1868c18a593e7184bbb8dd27e27fd720,
+      type: 3}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 124
+  - gatheringSkill: 0
+    modelPhase: 3
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: -1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 2
+  changeInvisibleOnly: 1

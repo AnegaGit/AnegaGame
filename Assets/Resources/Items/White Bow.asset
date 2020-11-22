@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f653a8b1ca60b47409f833726aa10a69, type: 3}
+  m_Name: White Bow
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 21700
+  weight: 1800
+  maxDurability: 6400
+  toolTip: '<b>{NAME}</b>
+
+    A powerful white bow.
+
+
+    Requires {REQUIREDAMMO}
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 12085298bfeea48c6bd147922ace454e, type: 3}
+  minLevel: 1
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 300
+  modelPrefab: {fileID: 158574, guid: dc4770faca127481a9e26e78f01c6dee, type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0
+  levelParry: 0
+  luckPortionParry: 0
+  luckMaxParry: 0
+  damageIgnore: 0
+  parryBestPortion: 0
+  requiredAmmo: {fileID: 11400000, guid: d43d0b6708c5248fb97ce9e77e9ce1ef, type: 2}
+  defaultSpell: {fileID: 0}
+  skillWeapon: 0
+  levelWeapon: 0
+  luckPortionWeapon: 0
+  luckMaxWeapon: 0
+  maxDamage: 0
+  attackTime: 0
+  attackRange: 0

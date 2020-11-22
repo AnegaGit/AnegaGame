@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Trees
+  m_EditorClassIdentifier: Assembly-CSharp::GatheringSourceItemList
+  items:
+  - {fileID: 11400000, guid: 7f35b7a38b331634ba5f7121d478c51d, type: 2}
+  - {fileID: 11400000, guid: f3be380ce70a8b74ca733988798bfc8a, type: 2}
+  - {fileID: 11400000, guid: 2ba82d7ed0a445b46a30bf8f0bffa33b, type: 2}
+  - {fileID: 11400000, guid: 281dea77547976843835fc0bb8371104, type: 2}
+  - {fileID: 11400000, guid: 4174a620ea381c7418c599d8ba7cc268, type: 2}

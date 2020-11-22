@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389790c1e073c435695f4fc188184a2b, type: 3}
+  m_Name: ProtectiveShell
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Protective Shell
+  toolTip: Add a little bit of  health and health regeneneration.
+  image: {fileID: 21300000, guid: b87e18b1c1f90cf42ae5e737ea25e5fc, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 14
+  skillLevel: 25
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 400
+  manaCostsMaster: 40
+  castTimeNewbe: 2
+  castTimeMaster: 1
+  cooldownNewbe: 20
+  cooldownMaster: 5
+  castRangeNewbe: 2
+  castRangeMaster: 16
+  castAnimation: SimpleSpell
+  castSound: {fileID: 0}
+  bonusRelative: 0
+  bonusHealthMin: 100
+  bonusHealthMax: 400
+  bonusManaMin: 0
+  bonusManaMax: 0
+  bonusHealthPerSecondMin: 10
+  bonusHealthPerSecondMax: 30
+  bonusManaPerSecondMin: 0
+  bonusManaPerSecondMax: 0
+  bonusSpeedMin: 0
+  bonusSpeedMax: 0
+  buffTime: 30
+  luckTimePortion: 0.5
+  luckTimeMax: 2.5
+  effect: {fileID: 1215047027987379456, guid: cfe5da1871aab6546b84a67560a8c605, type: 3}
+  canBuffSelf: 1
+  canBuffOthers: 1
+  canBuffEnemies: 0

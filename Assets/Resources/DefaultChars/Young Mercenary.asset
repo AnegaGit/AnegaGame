@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9f234426e03394c8f4b110e276e3d6, type: 3}
+  m_Name: Young Mercenary
+  m_EditorClassIdentifier: 
+  identifier: 1
+  headline: Scars are like battle wounds - beautiful, in a way. They show what you've
+    been through and how strong you are for coming out of it.
+  description: 'When it came to tearing out trees, as a child you could already take
+    on the men in the village. Later you joined a group of mercenaries. But they were
+    not very successful, so you took the opportunity and boarded a ship in the unknown
+    new land.
+
+
+    You are very strong and fit. With a little practice, it is unlikely that a monster
+    will be able to handle you.
+
+    If you are out alone in the wilderness, you may not be able to find your way around.
+
+    Magic is revealed to you only in its simplest features.
+
+    In a blacksmith you should work as a henchman to not spoil the valuable pieces
+    of work.
+
+
+    You have managed to preserve your armor and your sword.'
+  playerClass: HumanMale
+  apperance: 102712001027
+  attributes: 1512 1 010 715 1 8 2 811
+  abilities: 0131113311
+  skills: 3;1;5;2;2;3;
+  starterSet: {fileID: 11400000, guid: 6146db289f13a9e49bfec3d5050163e0, type: 2}

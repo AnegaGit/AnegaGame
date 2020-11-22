@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae6250c7cd54fe43afe2e029bc1a3bd, type: 3}
+  m_Name: Depot Chest
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 1000000000
+  weight: 9999000
+  maxDurability: 0
+  toolTip: 'Depot: <b>{SPECIALNAME}</b>
+
+
+    Public depot for everybody.'
+  image: {fileID: 21300000, guid: 97d0e941b7b12b24eb9dc43a5c58aa46, type: 3}
+  minLevel: 0
+  interactionRange: 1.2
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 6567136236269314688, guid: d309c328a5df0e4459ec6db68ef62a6a,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  minSlots: 20
+  maxSlots: 2000
+  minContainer: 3
+  maxContainer: 30
+  itemInElement: []
+  containerInElement:
+    id: 0
+    type: 0
+    name: 
+    slots: 0
+    containers: 0
+    miscellaneousSync: 

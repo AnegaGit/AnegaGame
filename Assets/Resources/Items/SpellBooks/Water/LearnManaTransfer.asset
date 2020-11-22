@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnManaTransfer
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 82500
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 59f4cf53c54f1a94aaf62db6bb171e3a, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Anextlomarus
+  title: Mana Transfer
+  bookText: 'Can''t you do that magic? But maybe someone else can but needs your mana?
+
+    This spell transfers a remarbable amout of Mana to the target.
+
+
+    You should be at least a journeyman in water magic to learn and use this spell.
+
+    You need a considerable high amount of mana to start the spell.'
+  bookType: 0
+  spell: {fileID: 11400000, guid: e3c500548ddbbd746a139602f0330cae, type: 2}
+  minSkillLevel: 35

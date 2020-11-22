@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f7fb3ea5bac04a857e5f4a0b30077, type: 3}
+  m_Name: KnickerbockerF_MeshHide_4Hauberk
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 11400000, guid: 62d92cc3f87181c49b80f4784ebda4f9, type: 2}
+  _assetSlotName: KnickerbockerFabricF
+  _serializedFlags:
+  - flags: ffffffffffffffffff7f681e00000406060600000000000000008030c8301c00f0ffffff077880c5000000000000000000000000000000f81f00000000000000feffffff0fcd0f03000000000000000064ffffffffffffffff03d000000000000000fe013cfeffffff0f00000000000000000000000000000000000018260000000000ff
+    Count: 1048

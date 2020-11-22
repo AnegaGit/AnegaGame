@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56171b6075a9bef40ab611276bc02966, type: 3}
+  m_Name: Felling Axe
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 564
+  weight: 1200
+  maxDurability: 1200
+  toolTip: '<b>{NAME}</b>
+
+    Sometimes cutting the wrong tree is the only choice you have. This is the tool
+    that can also be used for the right trees.
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 6f3c3abbaab7df44c9c82f84227f8d60, type: 3}
+  minLevel: 1
+  interactionRange: 1
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 600
+  modelPrefab: {fileID: 7912714118533755301, guid: b873ca3294fb5b04a9473904a672517e,
+    type: 3}
+  animation: CHOPPING
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0
+  skillTool: 10
+  levelTool: 5
+  luckPortionTool: 0.05
+  luckMaxTool: 2
+  workTimeMin: 1.2
+  workTimeMax: 4.8
+  workDistance: 2

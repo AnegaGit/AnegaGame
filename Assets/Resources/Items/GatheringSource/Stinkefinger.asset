@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: Stinkefinger
+  m_EditorClassIdentifier: 
+  itemName: Stinkefinger
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 4306124075522768991, guid: 359234e218c4ff946bc26e100db77f60,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions:
+  - VegetationType: 10
+    frequency: 80
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 2
+      minAmount: 1
+      maxAmount: 20
+  - VegetationType: 10
+    frequency: 15
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 0
+  - VegetationType: 11
+    frequency: 80
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 2
+      minAmount: 1
+      maxAmount: 20
+  - VegetationType: 11
+    frequency: 15
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 0
+  - VegetationType: 20
+    frequency: 80
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 2
+      minAmount: 1
+      maxAmount: 20
+  - VegetationType: 20
+    frequency: 15
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 0
+  - VegetationType: 21
+    frequency: 80
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 2
+      minAmount: 1
+      maxAmount: 20
+  - VegetationType: 21
+    frequency: 15
+    sizeMin: 0.8
+    sizeMax: 1.2
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 95f540e87a675a749b54b2a5f89fa98c, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 0
+  lifePhases:
+  - gatheringSkill: 11
+    modelPhase: 0
+    bestSkillLevel: 5
+    itemsInResource: 6
+    voidTriesMin: 0
+    voidTriesMax: 0.1
+    content:
+    - item: {fileID: 11400000, guid: 382ae5966346fec42bc87c65030091e7, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0094
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 8
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 60
+    itemsInResource: 3
+    voidTriesMin: 0.062
+    voidTriesMax: 0.301
+    content:
+    - item: {fileID: 11400000, guid: 7092656a871822b4cb55f676f0870b9c, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.1
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 2
+    nextPhaseTimeoutSpecial: 2
+    dayInPhase: 13
+  - gatheringSkill: 11
+    modelPhase: 2
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0
+    voidTriesMax: 0.165
+    content:
+    - item: {fileID: 11400000, guid: 77214f986f81ba74384d2973eec3445d, type: 2}
+      amount: 6
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0.66
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.66
+    nextPhaseTimeoutDefault: 0
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 21
+  changeInvisibleOnly: 1

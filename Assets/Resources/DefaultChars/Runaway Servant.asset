@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9f234426e03394c8f4b110e276e3d6, type: 3}
+  m_Name: Runaway Servant
+  m_EditorClassIdentifier: 
+  identifier: 2
+  headline: The best way to find yourself is to lose yourself in the service of others.
+  description: 'The village you come from was away from world affairs. Since you could
+    walk, you served the local nobles almost invisible for everything. Cleaning vegetables,
+    weeding or emptying the pots, no work was too dirty for you.
+
+    It would certainly have continued, if not the young third-born of the house was
+    after you. You were not guilty, but what does that interest the nobles? The mistress
+    has chased you out of the yard with name and shame.
+
+    You accidentally stumbled into a port city and there was this ship. It was as
+    good as any other.
+
+
+    The setting is challenging.
+
+    Although the character is dexterous and agile, the character can not read and
+    has virtually no possessions.
+
+
+    Your health is not exceptional, but you heal fast.
+
+    You have some mana available.
+
+
+    You are not very strong.'
+  playerClass: HumanFemale
+  apperance: ' 984 936 984'
+  attributes: ' 513 6 4 510 51110 9 5 7'
+  abilities: 1132013121
+  skills: 1;1;3;2;4;3;
+  starterSet: {fileID: 11400000, guid: 111af58763e12c74faafa6eb72adcdb7, type: 2}

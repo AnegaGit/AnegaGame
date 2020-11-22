@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: GlowmossPlant
+  m_EditorClassIdentifier: 
+  itemName: Glowmoss
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 6497046336795914866, guid: b46d50c5c6a65044892df8d179ba74c0,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions:
+  - VegetationType: 31
+    frequency: 70
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: d3a849c1a549e454680c0540ec6adcbd, type: 2}
+      minDistance: 0
+      maxDistance: 3
+      minAmount: 1
+      maxAmount: 10
+  - VegetationType: 31
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: d3a849c1a549e454680c0540ec6adcbd, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 1
+  - VegetationType: 32
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: d3a849c1a549e454680c0540ec6adcbd, type: 2}
+      minDistance: 0
+      maxDistance: 3
+      minAmount: 1
+      maxAmount: 10
+  - VegetationType: 32
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: d3a849c1a549e454680c0540ec6adcbd, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 1
+  lifePhases:
+  - gatheringSkill: 0
+    modelPhase: 0
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0.0094
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: 1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 20
+    itemsInResource: 9
+    voidTriesMin: 0.078
+    voidTriesMax: 0.277
+    content:
+    - item: {fileID: 11400000, guid: 4b2ee39fa275e8b44801ef60c64a04df, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0037
+    nextPhaseUsedDefaultProbability: 0.904
+    nextPhaseUsedDefault: 2
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 4
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 48
+  - gatheringSkill: 0
+    modelPhase: 2
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 3
+    nextPhaseUsedSpecial: 3
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.95
+    nextPhaseTimeoutDefault: 3
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 20
+    itemsInResource: 9
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content:
+    - item: {fileID: 11400000, guid: 4b2ee39fa275e8b44801ef60c64a04df, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0037
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 4
+    nextPhaseUsedSpecial: 4
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 4
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 12
+  - gatheringSkill: 0
+    modelPhase: 3
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: -1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 5
+  changeInvisibleOnly: 1

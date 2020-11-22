@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: Stumbletwine
+  m_EditorClassIdentifier: 
+  itemName: Stumbletwine
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 7167005113516544824, guid: 3b1d5f7f3d0630d489d260ac6b6c41d5,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0.1
+  seedActions:
+  - VegetationType: 10
+    frequency: 50
+    sizeMin: 0.9
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3ec68447526bf644b8826afb65f09c14, type: 2}
+      minDistance: 0
+      maxDistance: 5
+      minAmount: 0
+      maxAmount: 5
+  - VegetationType: 11
+    frequency: 50
+    sizeMin: 0.9
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3ec68447526bf644b8826afb65f09c14, type: 2}
+      minDistance: 0
+      maxDistance: 5
+      minAmount: 0
+      maxAmount: 10
+  - VegetationType: 20
+    frequency: 50
+    sizeMin: 0.9
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3ec68447526bf644b8826afb65f09c14, type: 2}
+      minDistance: 0
+      maxDistance: 5
+      minAmount: 0
+      maxAmount: 5
+  - VegetationType: 21
+    frequency: 50
+    sizeMin: 0.9
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3ec68447526bf644b8826afb65f09c14, type: 2}
+      minDistance: 0
+      maxDistance: 5
+      minAmount: 0
+      maxAmount: 10
+  lifePhases:
+  - gatheringSkill: 11
+    modelPhase: 0
+    bestSkillLevel: 20
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 0
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 2
+    nextPhaseTimeoutSpecial: 2
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 2
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 3
+    nextPhaseTimeoutSpecial: 3
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 3
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 2
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 4
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 4
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 3
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 5
+    nextPhaseTimeoutSpecial: 5
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 5
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 3
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 4
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 6
+    nextPhaseTimeoutSpecial: 6
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 6
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 3
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 6
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 8
+    nextPhaseTimeoutSpecial: 8
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 7
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 3
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 6
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 9
+    nextPhaseTimeoutSpecial: 9
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 8
+    bestSkillLevel: 5
+    itemsInResource: 7
+    voidTriesMin: 0.05
+    voidTriesMax: 0.25
+    content:
+    - item: {fileID: 11400000, guid: acb21b3d2a40cd545b73e214346f43ca, type: 2}
+      amount: 4
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.96
+    nextPhaseUsedDefault: 7
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.9
+    nextPhaseTimeoutDefault: 8
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 2
+  changeInvisibleOnly: 1

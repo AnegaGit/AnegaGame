@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec926ce05000e4d3e8165891ee7c6f1f, type: 3}
+  m_Name: ManaTransferMinor
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Transfer Minor Mana
+  toolTip: '<b>{NAME}</b>
+
+    Replenish the mana bar of your target {HEALSMANA}
+
+    It cannot be used on yourself.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}'
+  image: {fileID: 21300000, guid: 5bd650dac701bad4f912acd53fc44aaa, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 12
+  skillLevel: 0
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 2000
+  manaCostsMaster: 100
+  castTimeNewbe: 1.6
+  castTimeMaster: 0.9
+  cooldownNewbe: 12
+  cooldownMaster: 6
+  castRangeNewbe: 7
+  castRangeMaster: 24
+  castAnimation: LowSpell
+  castSound: {fileID: 0}
+  healsHealth: 0
+  healsMana: 200
+  isRealtveHeals: 0
+  luckPortion: 0.2
+  luckMax: 3
+  effect: {fileID: 8206998196788775632, guid: d0aaf9af3b148c4468ff2080eaf77cba, type: 3}
+  canHealSelf: 0
+  canHealOthers: 1

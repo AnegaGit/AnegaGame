@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df86bdb5207437cb20582b0b85ebcc, type: 3}
+  m_Name: FireDamageMedium
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Medium Fire Damage
+  toolTip: '<b>{NAME}</b>
+
+    Llight a burning fire under your enemy.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Stun: {STUNCHANCE} for {STUNTIME}'
+  image: {fileID: 21300000, guid: f998ccd41d94d914783b9ae155d0be2a, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 15
+  skillLevel: 30
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 3000
+  manaCostsMaster: 300
+  castTimeNewbe: 3.3
+  castTimeMaster: 1.1
+  cooldownNewbe: 24
+  cooldownMaster: 7
+  castRangeNewbe: 20
+  castRangeMaster: 34
+  castAnimation: PushSpell
+  castSound: {fileID: 0}
+  maxDamage: 1000
+  isRelativeDamage: 0
+  stunChance: 0.2
+  stunTimeMax: 5
+  luckPortion: 0.3
+  luckMax: 5
+  effect: {fileID: 114038526120822526, guid: 1b5ee8f977adfe34798d9db3bb6a6024, type: 3}

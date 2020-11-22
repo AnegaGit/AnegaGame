@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnShortPull
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 4570
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: c42505e678b5df64a8927cb74f4326bb, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Black Porter
+  title: Short Pull
+  bookText: "<b>Short Pull</b>\nSurprise your friends or enemies with one jump. Not
+    yours, but their.\r\n\r\nThey have to agreer, so your enemies will be less impressed.\r\n<p>
+    You cannot use this spell on yourself.\r\n\r\nYou should be at least a better
+    beginner in air magic if you want to learn it. For really noticeable jumps, I
+    recommend Assistant."
+  bookType: 1
+  spell: {fileID: 11400000, guid: 381414297f783894e8ce556ca62de4ed, type: 2}
+  minSkillLevel: 10

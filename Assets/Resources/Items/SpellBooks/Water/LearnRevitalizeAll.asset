@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnRevitalizeAll
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 36400
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 8dfa9532ae83f204da76a3893d3fb024, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Anextlomarus
+  title: Revitalize All
+  bookText: "<b>Revitalize All</b>\n\nYou are a master of water magic. Here you can
+    show what you are really made of. All who are with you will be completely, or
+    at least almost completely, healed.\r\nGather people tightly around you and heal
+    everyone at once.\n\r<p>You should at least be an authority or better an expert
+    in water magic if you want to learn it. Masters get good results\nA huge amount
+    of mana is required.."
+  bookType: 1
+  spell: {fileID: 11400000, guid: c48566cdebfce5445b0fd9f85934cc20, type: 2}
+  minSkillLevel: 65

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: Foxine
+  m_EditorClassIdentifier: 
+  itemName: Foxine
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 4842118944729899610, guid: 48c68192689d0a54c8ef6824c34f1ec6,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions:
+  - VegetationType: 31
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3a7b71e86f104524aa49862d3e3eb265, type: 2}
+      minDistance: 0
+      maxDistance: 2
+      minAmount: 0
+      maxAmount: 8
+    - relatedItems: {fileID: 11400000, guid: 3a7b71e86f104524aa49862d3e3eb265, type: 2}
+      minDistance: 2
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 1
+  - VegetationType: 32
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.1
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 3a7b71e86f104524aa49862d3e3eb265, type: 2}
+      minDistance: 0
+      maxDistance: 4
+      minAmount: 0
+      maxAmount: 15
+    - relatedItems: {fileID: 11400000, guid: 3a7b71e86f104524aa49862d3e3eb265, type: 2}
+      minDistance: 3
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 2
+  lifePhases:
+  - gatheringSkill: 0
+    modelPhase: 0
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0.0094
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 1
+    nextPhaseUsedSpecial: 1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 30
+    itemsInResource: 9
+    voidTriesMin: 0.078
+    voidTriesMax: 0.277
+    content:
+    - item: {fileID: 11400000, guid: 0cb124aed03627c4da5b9e001cedb845, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0037
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 4
+    nextPhaseUsedSpecial: 4
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 2
+    nextPhaseTimeoutSpecial: 2
+    dayInPhase: 7
+  - gatheringSkill: 0
+    modelPhase: 2
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 3
+    nextPhaseUsedSpecial: 3
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 3
+    nextPhaseTimeoutSpecial: 3
+    dayInPhase: 4
+  - gatheringSkill: 11
+    modelPhase: 3
+    bestSkillLevel: 10
+    itemsInResource: 6
+    voidTriesMin: 0
+    voidTriesMax: 0.239
+    content:
+    - item: {fileID: 11400000, guid: 92649dacf01f0dd4388e68d2ba4be914, type: 2}
+      amount: 9
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0037
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 4
+    nextPhaseUsedSpecial: 4
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 4
+    nextPhaseTimeoutSpecial: 4
+    dayInPhase: 7
+  - gatheringSkill: 0
+    modelPhase: 4
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.8
+    nextPhaseTimeoutDefault: 0
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 2
+  changeInvisibleOnly: 1

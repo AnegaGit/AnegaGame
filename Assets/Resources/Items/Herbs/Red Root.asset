@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Red Root
+  m_EditorClassIdentifier: 
+  itemName: Red Root
+  maxStack: 50
+  price: 6400
+  weight: 142
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Be carfull, it rotts fast.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: e17bb3fefa3a3754a9757f1ee2b7738f, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 120
+  modelPrefab: {fileID: 8280043416477572619, guid: 95bcfffd7d8baef499fca17222a48ec9,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

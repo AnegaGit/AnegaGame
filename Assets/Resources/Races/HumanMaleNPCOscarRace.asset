@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e4ed1998ff0b348a6ad3504d36f294, type: 3}
+  m_Name: HumanMaleNPCOscarRace
+  m_EditorClassIdentifier: 
+  definitions:
+  - text: height
+    value: 0.79
+  - text: headSize
+    value: 0.5
+  - text: headWidth
+    value: 0.5
+  - text: neckThickness
+    value: 0.5
+  - text: armLength
+    value: 0.5
+  - text: forearmLength
+    value: 0.5
+  - text: armWidth
+    value: 0.5
+  - text: forearmWidth
+    value: 0.5
+  - text: handsSize
+    value: 0.5
+  - text: feetSize
+    value: 0.5
+  - text: legSeparation
+    value: 0.5
+  - text: upperMuscle
+    value: 0.5
+  - text: lowerMuscle
+    value: 0.5
+  - text: upperWeight
+    value: 0.5
+  - text: lowerWeight
+    value: 0.5
+  - text: legsSize
+    value: 0.5
+  - text: belly
+    value: 0.5
+  - text: waist
+    value: 0.55
+  - text: gluteusSize
+    value: 0.36
+  - text: earsSize
+    value: 0.52
+  - text: earsPosition
+    value: 0.5
+  - text: earsRotation
+    value: 0.5
+  - text: noseSize
+    value: 0.5
+  - text: noseCurve
+    value: 0.5
+  - text: noseWidth
+    value: 0.5
+  - text: noseInclination
+    value: 0.5
+  - text: nosePosition
+    value: 0.5
+  - text: nosePronounced
+    value: 0.5
+  - text: noseFlatten
+    value: 0.5
+  - text: chinSize
+    value: 0.5
+  - text: chinPronounced
+    value: 0.5
+  - text: chinPositon
+    value: 0.5
+  - text: mandibleSize
+    value: 0.5
+  - text: jawsSize
+    value: 0.5
+  - text: jawsPosition
+    value: 0.5
+  - text: cheekSize
+    value: 0.5
+  - text: cheekPosition
+    value: 0.5
+  - text: lowCheekPronounced
+    value: 0.5
+  - text: lowCheekPosition
+    value: 0.5
+  - text: foreheadSize
+    value: 0.5
+  - text: foreheadPosition
+    value: 0.5
+  - text: lipsSize
+    value: 0.5
+  - text: mouthSize
+    value: 0.5
+  - text: eyeRotation
+    value: 0.5
+  - text: eyeSize
+    value: 0.52
+  - text: breastSize
+    value: 0.5
+  - text: eyeSpacing
+    value: 0.5

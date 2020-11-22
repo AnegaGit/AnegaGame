@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: WolffernPlant
+  m_EditorClassIdentifier: 
+  itemName: Wolffern
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 5647266921479664096, guid: de02be75ea7180541bf476c7117bbd2f,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0
+  seedActions:
+  - VegetationType: 11
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 0
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 30
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 6
+      maxDistance: 20
+      minAmount: 0
+      maxAmount: 1
+  - VegetationType: 21
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 0
+      maxDistance: 6
+      minAmount: 0
+      maxAmount: 30
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 6
+      maxDistance: 20
+      minAmount: 0
+      maxAmount: 1
+  - VegetationType: 10
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 1
+  - VegetationType: 20
+    frequency: 20
+    sizeMin: 0.8
+    sizeMax: 1.4
+    rules:
+    - relatedItems: {fileID: 11400000, guid: 83141df56379c8a4081a1e5c7e40b21a, type: 2}
+      minDistance: 0
+      maxDistance: 10
+      minAmount: 0
+      maxAmount: 1
+  lifePhases:
+  - gatheringSkill: 11
+    modelPhase: 0
+    bestSkillLevel: 15
+    itemsInResource: 5
+    voidTriesMin: 0.06
+    voidTriesMax: 0.204
+    content:
+    - item: {fileID: 11400000, guid: d861857f9f3c5bc4e8ded86f78ff5554, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0094
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 7
+  - gatheringSkill: 11
+    modelPhase: 1
+    bestSkillLevel: 5
+    itemsInResource: 10
+    voidTriesMin: 0
+    voidTriesMax: 0.132
+    content:
+    - item: {fileID: 11400000, guid: d861857f9f3c5bc4e8ded86f78ff5554, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0039
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: 2
+    nextPhaseUsedSpecial: 2
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: -1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 523
+  - gatheringSkill: 0
+    modelPhase: 2
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 0
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 0.82
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 2
+  changeInvisibleOnly: 1

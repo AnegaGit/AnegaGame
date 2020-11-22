@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ef32e00b9417a4ea6c442e40a049ba, type: 3}
+  m_Name: TheSingingWell
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 72300
+  weight: 392
+  maxDurability: 50
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 4864daf841eee421cba7b3fbac00a10e, type: 3}
+  minLevel: 0
+  interactionRange: 0
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 2058298080062055818, guid: 8606b219535d20543a95c10087e6803e,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Calida Sisters
+  title: The Singing Well
+  bookText: "A tale according to oral tradition written down by the Calida sisters.\r\n\r\n<b>Preamble\r\n</b>\r\nThe
+    written book changes our world. Knowledge can be stored unchanged over long terms.
+    But in the same time stories told mouth-to-mouth over centuries are not told anymore
+    and got lost.\r\n<p>\r\nWe want to ensure that this valuable ancient knowledge
+    will not be lost for further generation with this collection of myth and tales.\r\n\r\n<i>Jaka
+    und Wilhelma Calida\r\n</i>\r\n<p><b>Once upon a time</b>\r\nas the mountains
+    were higher, the ocean deeper and the forest more impenetrable there lived a dwarven
+    girl in the mountain.\r\nShe was handy, hard-working and delighted her parents
+    with her laughing once they returned from the mine loaded with coal and ore after
+    a long working day.<p>She never left the house without her shiny copper helmet
+    and everybody called her Little Copperhead.\r\n<p>Following the valley to the
+    plains one reach after some time a small foothill from the mountain. At the pass
+    over there was a small but valuable mine owned by her grandpa.\r\nHe found one
+    day ice and could deliver fresh ice for every brewery all the year. Even in the
+    hottest summer days beer never got warm these days but this is another story.\r\n<p>On
+    day grandfather became sick and Little Copperhead were send by her mother with
+    a pot chicken soup, a bottle of the strongest dwarven beer and a loan of fresh
+    bread to the house of the grandfather.\r\nHer mother enjoined Little Copperhead
+    to stay on the way and take care before an evil orc who was seen by some of the
+    travelling<p>merchants near the road recently.\r\nLittle Copperhead promised to
+    be obedient and set out for her way in the morning. She jested with the guards
+    at the gate, waved to the farmers on the fields and friendly greeted the fruit
+    farmers during their harvest.\r\n<p>At the edge of forest full of flowers she
+    met an old grumpy lumberjack. He chopped a tree with an old war axe. She sheered
+    him and told him about her quest. The lumberjack said there grew currently much
+    more beautiful flowers in the forest.\r\n<p>Little Copperhead collected a bunch
+    of flowers for grandfather. She even walked some steps into the forest but never
+    became out of view of the busy road. Within half an hour she continued her way,
+    her arm full of the most colorful flowers.\r\n<p>The old lumberjack instead was
+    vanished meanwhile. He was nobody else than evil orc who consumed a conversion
+    potion to waylay travelers.\r\n\r\nThe evil orc hurried on ahead and throw the
+    old dwarf in the well without further ado. Then he emptied a bottle of another
+    conversion potion and laid into grandfather's bed.\r\n<p>He cleared the lights
+    and closed the shutters because his real nature would have been seen for everybody
+    in light immediately.\r\n\r\nShortly after Little Copperhead arrived and wondered
+    about the extinguished candles.\r\n<p>'Grandpa, should I illuminate the house,
+    shouldn't I?' Little Copperhead asked.\r\n\r\n'No but shut the door!' grumpily
+    answered the invisible evil orc.\r\n<p>'You sound really ill grandpa. I can fill
+    in a mug for you can't I?' says Little Copperhead and went to the bed.\r\n\r\n'I'm
+    not thirsty!' muttered the evil orc below the blanket.\r\n<p>'But you wear your
+    night cap absolutely unusual grandpa, didn't you?' wonderingly asked Little Copperhead
+    since the evil orc had thrown the night cap over his eyes not to get recognized.\r\n\r\nThe
+    girl hunkered over the bed and at the very same time the effect of the conversion
+    potion ended.\r\n<p>The supposed dwarf became longer and longer and broke the
+    bed into pieces, the huge beard became slobbering fangs and the blanket was pushed
+    away.\r\nEven before Little Copperhead realized what happened she lay gagged and
+    tied like a pocket in a corner of the room.\r\n<p>'I'll get a good price at the
+    slave market for you. This night nobody will identify what valuable load I carry
+    away.' Happily whispers the evil orc. He took then girls bag, ate the food and
+    drunk the beer which she brought for her grandfather.\r\n<p>Meanwhile grandfather
+    in the well regained consciousness where he was because he dug that well by himself.
+    Unfortunately he could not climb out of the well since the wall was smoothed and
+    polished as fine as a dwarf can work only.\r\nBut he could shout. And so he ranted
+    and raved like a dwarf only can rant and rave.\r\n<p>A passerby merchant listen
+    the voice but thought the well was cursed. He took a way around the settlement
+    holding as much distance as possible.\r\n\r\nA farmer wanted to feed his just
+    bought cow at the well but pulled the dumbfounded animal away once he hear the
+    voices out of the well.\r\n<p>For some hours some more people were scared away
+    but even the most eloquent dwarf does not know swearwords and curses forever.
+    So grandfather begun singing miner's songs and such songs dwarven know even more
+    than swearwords.\r\n<p>In the late afternoon short before sundown the detached
+    watch came from the town. The men and women wanted to celebrate the end of the
+    work by drinking some beer in a nearby Inn.\r\nThere were a few dwarven in the
+    watch as well and the rough voice out of the well sounded like a sweet lovely
+    song to them.\r\n<p>Therefor they decided to drink some water from that wonderful
+    singing well. You may imagine how big was the surprise as they pulled an dwarf
+    instead of a bucket of cold water out of the well.\r\n<p>Their astonishment rose
+    again once they opened the door to the house. The evil orc was going to flee with
+    his dithering prize.\r\n\r\nSoon he was overwhelmed by the guards. Little Copperhead
+    got rescued and there are multiple reports of what happened to the evil orc.\r\n<p>One
+    can be sure the guards guided Little Copperhead home and celebrated a huge victory
+    party in the Inn that night.\r\nIt is told they were heard all allover in the
+    town.\r\n\r\nNobody knows how the evil orc ended.It is said that he sneaks around
+    to this day.\r\n"
+  bookType: 2

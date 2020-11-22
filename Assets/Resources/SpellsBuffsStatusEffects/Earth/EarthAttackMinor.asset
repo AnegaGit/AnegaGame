@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df86bdb5207437cb20582b0b85ebcc, type: 3}
+  m_Name: EarthAttackMinor
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Minor local earthquake
+  toolTip: '<b>{NAME}</b>
+
+    Shake your enemy.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Stun: {STUNCHANCE} for {STUNTIME}'
+  image: {fileID: 21300000, guid: c5fe74a8b6f6bac4e900583f3a690a84, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 14
+  skillLevel: 25
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 2500
+  manaCostsMaster: 150
+  castTimeNewbe: 1.9
+  castTimeMaster: 0.6
+  cooldownNewbe: 21
+  cooldownMaster: 8
+  castRangeNewbe: 4
+  castRangeMaster: 16
+  castAnimation: LowSpell
+  castSound: {fileID: 0}
+  maxDamage: 350
+  isRelativeDamage: 0
+  stunChance: 0.3
+  stunTimeMax: 3
+  luckPortion: 0.2
+  luckMax: 3
+  effect: {fileID: 114038526120822526, guid: 15ba903aeebc5df48ae41619cb02449c, type: 3}

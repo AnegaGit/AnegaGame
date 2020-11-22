@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df86bdb5207437cb20582b0b85ebcc, type: 3}
+  m_Name: AirAttackHigh
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Strong Air Attack
+  toolTip: '<b>{NAME}</b>
+
+    Stop your enemy.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Stun: {STUNCHANCE} for {STUNTIME}'
+  image: {fileID: 21300000, guid: 0d080f462b337bf4c8b1fbbc49a706f8, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 13
+  skillLevel: 70
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 4000
+  manaCostsMaster: 500
+  castTimeNewbe: 4.6
+  castTimeMaster: 1.2
+  cooldownNewbe: 32
+  cooldownMaster: 8
+  castRangeNewbe: 10
+  castRangeMaster: 42
+  castAnimation: PowerSpell
+  castSound: {fileID: 0}
+  maxDamage: 15
+  isRelativeDamage: 1
+  stunChance: 1
+  stunTimeMax: 24
+  luckPortion: 0.6
+  luckMax: 4
+  effect: {fileID: 4883814440066402941, guid: 2b359636be06b60469ce8780f69ae3f9, type: 3}

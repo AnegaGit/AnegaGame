@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Whiteblade Grain
+  m_EditorClassIdentifier: 
+  itemName: Whiteblade Grain
+  maxStack: 500
+  price: 14
+  weight: 9
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Not very common to be used for bread..
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: e1df30532a9e91441972e0029a374157, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 3583144052902583802, guid: c8496e876a6772044925b28c08050157,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

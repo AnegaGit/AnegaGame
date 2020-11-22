@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ca88917f8d58c46a2628e3472de5a6, type: 3}
+  m_Name: Beggar
+  m_EditorClassIdentifier: 
+  identifier: 0
+  headline: Poor and lost!
+  description: 'You sneaked onto the ferry without a silver coin. You have not gotten
+    richer on the crossing.
+
+    What you own, you wear. And these are nothing more than rags.
+
+
+    This starter set is much worse than a normal set. It contains virtually nothing
+    of value.'
+  money: 7
+  defaultItems:
+  - item: {fileID: 11400000, guid: e34c70d839f6ef44db8397db2248a609, type: 2}
+    amount: 1
+    quality: 94
+    durability: 97
+    position: 20
+  - item: {fileID: 11400000, guid: d9363d5ddb4470649a60709f953277db, type: 2}
+    amount: 1
+    quality: 34
+    durability: 62
+    position: 3
+  - item: {fileID: 11400000, guid: ec1a4c1e631115742adc69c9c8b51770, type: 2}
+    amount: 1
+    quality: 43
+    durability: 67
+    position: 5
+  - item: {fileID: 11400000, guid: cdf1aa292da85b642aa30649298336d8, type: 2}
+    amount: 1
+    quality: 46
+    durability: 51
+    position: 6

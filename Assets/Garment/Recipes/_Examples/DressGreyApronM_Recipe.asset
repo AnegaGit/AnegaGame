@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
+  m_Name: DressGreyApronM_Recipe
+  m_EditorClassIdentifier: 
+  recipeType: Wardrobe
+  DisplayValue: BasicDressM_Slot
+  compatibleRaces:
+  - HumanMale
+  wardrobeRecipeThumbs:
+  - race: HumanMale
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: Chest
+  Hides: []
+  suppressWardrobeSlots:
+  - Legs
+  activeWardrobeSet: []
+  MeshHideAssets:
+  - {fileID: 11400000, guid: 777398177a7584d478b8cc7aa665b156, type: 2}
+  - {fileID: 11400000, guid: 5aee6ef064122d44ebb872397d223eea, type: 2}
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"DressM","scale":100,"copyIdx":-1,"overlays":[{"id":"DressFineLinenM_Overlay","colorIdx":0,"rect":[0,0,0,0]},{"id":"DressApplicationsFineLinenM_Overlay","colorIdx":1,"rect":[0,0,0,0]},{"id":"DressApronFineLinenM_Overlay","colorIdx":2,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"-","colors":[172,182,198,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[179,176,165,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[179,176,165,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  replaces: Nothing

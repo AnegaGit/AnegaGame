@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
+  m_Name: ShirtLacedLinenPatchedF_Recipe
+  m_EditorClassIdentifier: 
+  recipeType: Wardrobe
+  DisplayValue: FabricShirtLinnenF_Slot
+  compatibleRaces:
+  - HumanFemale
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: Chest
+  Hides:
+  - FemaleTorso
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets: []
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"BasicShirtF","scale":100,"copyIdx":-1,"overlays":[{"id":"ShirtLacedFineLinenF_Overlay","colorIdx":0,"rect":[0,0,0,0]},{"id":"ShirtLacedLacingF_Overlay","colorIdx":1,"rect":[0,0,0,0]},{"id":"ShirtPatches1F_Overlay","colorIdx":2,"rect":[0,0,0,0]},{"id":"ShirtPatches2F_Overlay","colorIdx":3,"rect":[0,0,0,0]},{"id":"ShirtPatches3F_Overlay","colorIdx":4,"rect":[0,0,0,0]},{"id":"ShirtPatches4F_Overlay","colorIdx":4,"rect":[0,0,0,0]},{"id":"ShirtPatches5F_Overlay","colorIdx":5,"rect":[0,0,0,0]},{"id":"ShirtPatches6F_Overlay","colorIdx":6,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"-","colors":[151,141,130,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[156,156,156,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[199,97,110,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[70,147,80,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[65,72,185,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[66,73,186,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  IncompatibleRecipes: []
+  UserField: 
+  replaces: Nothing

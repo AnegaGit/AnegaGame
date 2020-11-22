@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Wolffern
+  m_EditorClassIdentifier: 
+  itemName: Wolffern
+  maxStack: 100
+  price: 76
+  weight: 77
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Too holy for an umbrella.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 6df2925fb5b7a83489ffa54e13123d65, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 900
+  modelPrefab: {fileID: 6350328393254320629, guid: 4daa29c10e64a0442850e4fd26392116,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

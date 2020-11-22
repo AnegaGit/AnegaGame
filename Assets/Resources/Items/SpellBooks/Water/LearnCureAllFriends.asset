@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnCureAllFriends
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 3770
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: f7fd0ede1e4b76d459cb0c335e99326d, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Anextlomarus
+  title: Cure All Friends
+  bookText: "<b>Cure all friends</b>\n\nYour party looks worn out. You can take care
+    of each one, or you can take care of them all at once.\r\nGather the people and
+    heal them all at once.\n\r<p>You should at least be a beginner in water magic
+    if you want to learn it. A larger area come with more experience."
+  bookType: 1
+  spell: {fileID: 11400000, guid: 5e3edd8aaefe7d14990ec03278eadec7, type: 2}
+  minSkillLevel: 15

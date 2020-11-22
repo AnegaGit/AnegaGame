@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e290bfcbde9721e45ba36d0f5c0471e1, type: 3}
+  m_Name: Warrior Pants
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 3200
+  weight: 700
+  maxDurability: 5200
+  toolTip: '<b>{NAME}</b>
+
+    Strong pants for Warriors.
+
+
+    <i>{ARMORSKILL} for {ARMORLEVEL}</i>
+
+    Protection: {ARMORMAXPROTECTION}
+
+    Gap: {ARMORDAMAGEGAP}
+
+    Luck: {ARMORLUCKPORTION} up to {ARMORLUCKMAX}x
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 8491b9590cc2940219517b1b0d87529c, type: 3}
+  minLevel: 1
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 300
+  modelPrefab: {fileID: 1368792768511332, guid: 2c1f84257b39648c088731e398bd25d2,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Legs
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0
+  skillArmor: 6
+  levelArmor: 6
+  luckPortionDefense: 0.05
+  luckMaxDefense: 3
+  maxProtection: 95
+  minPassingDamage: 5
+  UMAClothingRecipeMale: {fileID: 0}
+  UMAClothingRecipeFemale: {fileID: 0}

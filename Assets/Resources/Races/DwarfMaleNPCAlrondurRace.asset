@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e4ed1998ff0b348a6ad3504d36f294, type: 3}
+  m_Name: DwarfMaleNPCAlrondurRace
+  m_EditorClassIdentifier: 
+  definitions:
+  - text: height
+    value: 0.51
+  - text: headSize
+    value: 0.65
+  - text: headWidth
+    value: 0.7
+  - text: neckThickness
+    value: 0.84
+  - text: armLength
+    value: 0.45
+  - text: forearmLength
+    value: 0.6
+  - text: armWidth
+    value: 0.95
+  - text: forearmWidth
+    value: 0.95
+  - text: handsSize
+    value: 0.65
+  - text: feetSize
+    value: 0.65
+  - text: legSeparation
+    value: 0.85
+  - text: upperMuscle
+    value: 0.84
+  - text: lowerMuscle
+    value: 0.84
+  - text: upperWeight
+    value: 0.95
+  - text: lowerWeight
+    value: 0.95
+  - text: legsSize
+    value: 0.5
+  - text: belly
+    value: 0.95
+  - text: waist
+    value: 0.7
+  - text: gluteusSize
+    value: 0.85
+  - text: earsSize
+    value: 0.92
+  - text: earsPosition
+    value: 0.5
+  - text: earsRotation
+    value: 1
+  - text: noseSize
+    value: 0.95
+  - text: noseCurve
+    value: 0.9
+  - text: noseWidth
+    value: 0.73
+  - text: noseInclination
+    value: 0.3
+  - text: nosePosition
+    value: 0.1
+  - text: nosePronounced
+    value: 0.5
+  - text: noseFlatten
+    value: 0.8
+  - text: chinSize
+    value: 0.95
+  - text: chinPronounced
+    value: 0.95
+  - text: chinPositon
+    value: 1
+  - text: mandibleSize
+    value: 0.1
+  - text: jawsSize
+    value: 1
+  - text: jawsPosition
+    value: 0
+  - text: cheekSize
+    value: 1
+  - text: cheekPosition
+    value: 1
+  - text: lowCheekPronounced
+    value: 0.5
+  - text: lowCheekPosition
+    value: 0.5
+  - text: foreheadSize
+    value: 0.8
+  - text: foreheadPosition
+    value: 0.8
+  - text: lipsSize
+    value: 0.5
+  - text: mouthSize
+    value: 0.65
+  - text: eyeRotation
+    value: 0
+  - text: eyeSize
+    value: 0.95
+  - text: breastSize
+    value: 0.3
+  - text: eyeSpacing
+    value: 0.5
+  areaSpeed:
+  - 3
+  - 1
+  - 1
+  - 3
+  - 100
+  - 1
+  - 1

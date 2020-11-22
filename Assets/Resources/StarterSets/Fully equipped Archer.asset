@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ca88917f8d58c46a2628e3472de5a6, type: 3}
+  m_Name: Fully equipped Archer
+  m_EditorClassIdentifier: 
+  identifier: 2
+  headline: Take the first step in faith.
+  description: 'You managed to save your bow and some arrows during the crossing but
+    nothing more.
+
+    The set contains a decent high quality bow, some arrows, a small backpack and
+    some leather clothes.
+
+    There are a few silver left in your purse, barely enought to buy some food. Shooting
+    some fish during the passage saved your from starving. Be aware your clothing
+    gives you almost no protection.'
+  money: 4321
+  defaultItems:
+  - item: {fileID: 11400000, guid: d43d0b6708c5248fb97ce9e77e9ce1ef, type: 2}
+    amount: 487
+    quality: 66
+    durability: 100
+    position: 0
+  - item: {fileID: 11400000, guid: ed9584898ad0e4ecc93ae9e3c257edc7, type: 2}
+    amount: 1
+    quality: 93
+    durability: 96
+    position: 1
+  - item: {fileID: 11400000, guid: 787f6c79f56e6b8419a7582ffdeb0e00, type: 2}
+    amount: 1
+    quality: 74
+    durability: 97
+    position: 20
+  - item: {fileID: 11400000, guid: caccfd43f4a76834cbee68b371d33264, type: 2}
+    amount: 1
+    quality: 81
+    durability: 92
+    position: 6
+  - item: {fileID: 11400000, guid: 1537e7825e6b31f488275bf46d4ec1a4, type: 2}
+    amount: 1
+    quality: 70
+    durability: 69
+    position: 5
+  - item: {fileID: 11400000, guid: 999bab784bb6e1b49bad9dc59b471c2d, type: 2}
+    amount: 1
+    quality: 81
+    durability: 92
+    position: 3
+  - item: {fileID: 11400000, guid: 5417739055faed340bae3bf3dbf7bfba, type: 2}
+    amount: 1
+    quality: 77
+    durability: 87
+    position: 2

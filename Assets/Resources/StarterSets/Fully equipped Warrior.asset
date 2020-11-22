@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ca88917f8d58c46a2628e3472de5a6, type: 3}
+  m_Name: Fully equipped Warrior
+  m_EditorClassIdentifier: 
+  identifier: 1
+  headline: Do you want to be safe and good, or do you want to take a chance and be
+    great?
+  description: 'You managed to save your equipment during the crossing but nothing
+    more.
+
+
+    The set contains a decent armor, a tiny backpack and a good sword.
+
+    There are a few copper left in your purse, barely enought to buy some food. Since
+    you are hungry for days, you urgently need something to eat.'
+  money: 23
+  defaultItems:
+  - item: {fileID: 11400000, guid: 7329428b96c16d747800d137734a23e7, type: 2}
+    amount: 1
+    quality: 94
+    durability: 90
+    position: 1
+  - item: {fileID: 11400000, guid: 86976820df4fc584aacb7c2c8e8fa9ef, type: 2}
+    amount: 1
+    quality: 67
+    durability: 85
+    position: 0
+  - item: {fileID: 11400000, guid: 91aef6f8d1fb3f543a1650f597ed0a47, type: 2}
+    amount: 1
+    quality: 82
+    durability: 93
+    position: 3
+  - item: {fileID: 11400000, guid: 87440a9f4275f1a4c8b52f0dcb248fcf, type: 2}
+    amount: 1
+    quality: 84
+    durability: 91
+    position: 5
+  - item: {fileID: 11400000, guid: da038161171a99847aca450936754ba9, type: 2}
+    amount: 1
+    quality: 93
+    durability: 95
+    position: 6
+  - item: {fileID: 11400000, guid: 25dd9d78ef53dcc4cb3fd61a0fcb8483, type: 2}
+    amount: 1
+    quality: 82
+    durability: 83
+    position: 4
+  - item: {fileID: 11400000, guid: 69d88ca0e8ec27b498b3957a462afdcc, type: 2}
+    amount: 1
+    quality: 94
+    durability: 90
+    position: 19
+  - item: {fileID: 11400000, guid: 9c7ebea3c9c458843a9262b2f9f9e269, type: 2}
+    amount: 1
+    quality: 74
+    durability: 94
+    position: 20
+  - item: {fileID: 11400000, guid: e61d1a3da0fb27346a77387d6dd3654d, type: 2}
+    amount: 1
+    quality: 63
+    durability: 54
+    position: 2

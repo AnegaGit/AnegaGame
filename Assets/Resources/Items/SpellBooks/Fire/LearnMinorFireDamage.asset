@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnMinorFireDamage
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 7200
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 34423cd5205fe9b41ba5aabe2aa6adb6, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Joachim Brandhaus
+  title: Minor Fire Damage
+  bookText: 'You want to light a small fire under your enemy.
+
+
+    Why not, just go on with this not so hot burning beginner fire magic spell.Even
+    a noob can use and learn it.'
+  bookType: 0
+  spell: {fileID: 11400000, guid: 8eb4ecf98e43fb84a88ad87f90240cba, type: 2}
+  minSkillLevel: 0

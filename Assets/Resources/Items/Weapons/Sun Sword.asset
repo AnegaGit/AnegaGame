@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f653a8b1ca60b47409f833726aa10a69, type: 3}
+  m_Name: Sun Sword
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 72300
+  weight: 1300
+  maxDurability: 2600
+  toolTip: '<b>{NAME}</b>
+
+    A powerful sword for bright people.
+
+
+    <i>{WEAPONSKILL} for {WEAPONLEVEL}</i>
+
+    Force: {WEAPONDAMAGE}
+
+    Luck: {WEAPONLUCKPORTION} up to {WEAPONLUCKMAX}x
+
+    Hits per time: {WEAPONFREQUENCY}
+
+
+    <i>Parry for {PARRYLEVEL}</i>
+
+    Probability: {PARRYPROBABILITY}
+
+    Luck: {PARRYLUCK}
+
+    Consumed damage: {PARRYDAMAGE}
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 949812f4dd55d45cea61c10beccccf80, type: 3}
+  minLevel: 1
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 300
+  modelPrefab: {fileID: 3193279075365365148, guid: c7306a8de14c8dd43bdf16d591c1d14c,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0
+  levelParry: 5
+  luckPortionParry: 0.114
+  luckMaxParry: 10
+  damageIgnore: 120
+  parryBestPortion: 0.047
+  requiredAmmo: {fileID: 0}
+  defaultSpell: {fileID: 11400000, guid: 6872487e7d5f695419a86471314cfca4, type: 2}
+  skillWeapon: 2
+  levelWeapon: 3
+  luckPortionWeapon: 0.047
+  luckMaxWeapon: 3
+  maxDamage: 1400
+  attackTime: 1.9
+  attackRange: 0.6

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa9989113db04da2f1abd31b1fe65, type: 3}
+  m_Name: Glow Moss
+  m_EditorClassIdentifier: 
+  itemName: Glow Moss
+  maxStack: 10
+  price: 284
+  weight: 17
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    Once squeezed it glows for some time.
+
+
+    It {LIGHTTIME}.
+
+
+    Price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: df404602eac5e6d4285ccc20c057c19b, type: 3}
+  minLevel: 0
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 600
+  modelPrefab: {fileID: 6148924507289952348, guid: 536d22f0cc0549e439d72cb416a52c2e,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  maxLightSeconds: 60
+  canExtinguished: 0
+  multipleUse: 0
+  extinguishFailureMessage: Nothing happens.

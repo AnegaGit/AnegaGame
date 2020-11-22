@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
+  m_Name: HelmetRoundDarkNeckNoseF_Recipe
+  m_EditorClassIdentifier: 
+  recipeType: Wardrobe
+  DisplayValue: BasicHelmetM_Slot
+  compatibleRaces:
+  - HumanFemale
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: Helmet
+  Hides: []
+  suppressWardrobeSlots:
+  - Hair
+  - Ears
+  activeWardrobeSet: []
+  MeshHideAssets:
+  - {fileID: 11400000, guid: d298be967647f974193bdf19c5e898bc, type: 2}
+  - {fileID: 11400000, guid: d298be967647f974193bdf19c5e898bc, type: 2}
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"HelmetRoundF","scale":100,"copyIdx":-1,"overlays":[{"id":"HelmetRoundDarkF_Overlay","colorIdx":0,"rect":[0,0,0,0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"HelmetNeckProtectionF","scale":100,"copyIdx":-1,"overlays":[{"id":"HelmetAttachmentsDarkF_Overlay","colorIdx":1,"rect":[0,0,0,0]},{"id":"HelmetAttachmentsLeatherNeckF_Overlay","colorIdx":2,"rect":[0,0,0,0]}]},{"id":"HelmetNoseProtectionF","scale":100,"copyIdx":-1,"overlays":[{"id":"HelmetAttachmentsDarkF_Overlay","colorIdx":3,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  replaces: Nothing

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf10988ce15ed9f44ab30bd5a57a9444, type: 3}
+  m_Name: WhitebladefPlant
+  m_EditorClassIdentifier: 
+  itemName: Whiteblade
+  maxStack: 1
+  price: 100000000
+  weight: 100000000
+  maxDurability: 0
+  toolTip: '<b>{NAME}</b>
+
+    {RESOURCE}
+
+    {TOOL}'
+  image: {fileID: 0}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 0
+  usableAsElement: 1
+  usableFromInventory: 0
+  decayTime: 0
+  modelPrefab: {fileID: 2698028038758534668, guid: 3f35d40947aaa644ea2fbd24ef9c2091,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  freeRange: 0.1
+  seedActions:
+  - VegetationType: 57
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.6
+    rules:
+    - relatedItems: {fileID: 11400000, guid: eb86d9a927668924086f99bd15e490f9, type: 2}
+      minDistance: 0
+      maxDistance: 3
+      minAmount: 0
+      maxAmount: 11
+    - relatedItems: {fileID: 11400000, guid: eb86d9a927668924086f99bd15e490f9, type: 2}
+      minDistance: 0
+      maxDistance: 8
+      minAmount: 0
+      maxAmount: 25
+  - VegetationType: 52
+    frequency: 50
+    sizeMin: 0.8
+    sizeMax: 1.6
+    rules:
+    - relatedItems: {fileID: 11400000, guid: eb86d9a927668924086f99bd15e490f9, type: 2}
+      minDistance: 0
+      maxDistance: 3
+      minAmount: 0
+      maxAmount: 11
+    - relatedItems: {fileID: 11400000, guid: eb86d9a927668924086f99bd15e490f9, type: 2}
+      minDistance: 0
+      maxDistance: 8
+      minAmount: 0
+      maxAmount: 25
+  lifePhases:
+  - gatheringSkill: 11
+    modelPhase: 0
+    bestSkillLevel: 5
+    itemsInResource: 4
+    voidTriesMin: 0.074
+    voidTriesMax: 0.223
+    content:
+    - item: {fileID: 11400000, guid: 1a195a51653f06e489a7328237d3b2f4, type: 2}
+      amount: 2
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0012
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 1
+    nextPhaseTimeoutSpecial: 1
+    dayInPhase: 17
+  - gatheringSkill: 0
+    modelPhase: 1
+    bestSkillLevel: 0
+    itemsInResource: 0
+    voidTriesMin: 0
+    voidTriesMax: 0
+    content: []
+    probabilityExtraStuff: 0
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 2
+    nextPhaseTimeoutSpecial: 2
+    dayInPhase: 5
+  - gatheringSkill: 11
+    modelPhase: 2
+    bestSkillLevel: 5
+    itemsInResource: 5
+    voidTriesMin: 0
+    voidTriesMax: 0.26
+    content:
+    - item: {fileID: 11400000, guid: 94d22a5209fcec84c804fce9c2cfd0db, type: 2}
+      amount: 9
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0025
+    nextPhaseUsedDefaultProbability: 0.93
+    nextPhaseUsedDefault: 3
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: 3
+    nextPhaseTimeoutSpecial: 3
+    dayInPhase: 2
+  - gatheringSkill: 11
+    modelPhase: 3
+    bestSkillLevel: 80
+    itemsInResource: 3
+    voidTriesMin: 0
+    voidTriesMax: 1
+    content:
+    - item: {fileID: 11400000, guid: a5a1e8d2cd2b0e747ba12cf1d0b1aab5, type: 2}
+      amount: 1
+      probability: 1
+      infoText: 
+      durability: 50
+      quality: 50
+    probabilityExtraStuff: 0.0066
+    nextPhaseUsedDefaultProbability: 1
+    nextPhaseUsedDefault: -1
+    nextPhaseUsedSpecial: -1
+    onUseEffect: {fileID: 0}
+    nextPhaseTimeoutDefaultProbability: 1
+    nextPhaseTimeoutDefault: -1
+    nextPhaseTimeoutSpecial: -1
+    dayInPhase: 7
+  changeInvisibleOnly: 1

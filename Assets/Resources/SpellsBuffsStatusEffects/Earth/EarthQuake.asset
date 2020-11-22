@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39404fb41ac8a364fb1dd051a6465c02, type: 3}
+  m_Name: EarthQuake
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Earthquake
+  toolTip: '<b>{NAME}</b>
+
+    Shakes the earth on an huge area. It causes a little damage and keep some off
+    foot.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Area: {DAMAGEAREA}
+
+    Stun: {STUNCHANCE} for {STUNTIME}
+
+    Can damage: {CANDAMAGE}'
+  image: {fileID: 21300000, guid: 7ce02e8806bf67040b190542242f3f4c, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 0
+  skill: 14
+  skillLevel: 50
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 2680
+  manaCostsMaster: 768
+  castTimeNewbe: 3.4
+  castTimeMaster: 1.1
+  cooldownNewbe: 34
+  cooldownMaster: 11
+  castRangeNewbe: 14
+  castRangeMaster: 45
+  castAnimation: PushSpell
+  castSound: {fileID: 0}
+  maxDamage: 750
+  isRelativeDamage: 0
+  stunChance: 0.6
+  stunTimeMax: 8
+  luckPortion: 0.4
+  luckMax: 3
+  effect: {fileID: 114038526120822526, guid: ceec9a7427b98344c88663091483be5e, type: 3}
+  damageArea: 7
+  canDamageSelf: 0
+  canDamagePlayer: 1
+  canDamageMonster: 1

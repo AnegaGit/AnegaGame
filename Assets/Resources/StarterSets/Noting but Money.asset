@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ca88917f8d58c46a2628e3472de5a6, type: 3}
+  m_Name: Noting but Money
+  m_EditorClassIdentifier: 
+  identifier: 3
+  headline: There is nothing you cannot buy for money.
+  description: 'You have sold everything you once owned. Even after the expensive
+    crossing a few pieces of gold remained for a new beginning.
+
+    The set contains a decent amount of money, a small backpack and some rugged clothes.
+
+    You can neither fight nor craft and have to buy or scrounge everything you need.
+    Be aware with your appearance, it is a simple outfit only.'
+  money: 153748
+  defaultItems:
+  - item: {fileID: 11400000, guid: 787f6c79f56e6b8419a7582ffdeb0e00, type: 2}
+    amount: 1
+    quality: 94
+    durability: 97
+    position: 20
+  - item: {fileID: 11400000, guid: 5417739055faed340bae3bf3dbf7bfba, type: 2}
+    amount: 1
+    quality: 94
+    durability: 97
+    position: 2
+  - item: {fileID: 11400000, guid: 8d28277d46fb1a745ab40d6829bc4832, type: 2}
+    amount: 1
+    quality: 94
+    durability: 97
+    position: 6
+  - item: {fileID: 11400000, guid: 701b2f9888a3f7e419d95e32d57ea958, type: 2}
+    amount: 1
+    quality: 92
+    durability: 98
+    position: 5
+  - item: {fileID: 11400000, guid: c89ce3a27191e0040857d7135fe60699, type: 2}
+    amount: 1
+    quality: 94
+    durability: 97
+    position: 3

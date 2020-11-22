@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: OakBranch
+  m_EditorClassIdentifier: 
+  itemName: Oak branch
+  maxStack: 500
+  price: 46
+  weight: 64
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    A branch from a oak tree.
+
+    Small objects are made of it better than from a long board.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: a80d3556b30c213469fd34d981912252, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 1615384473824158089, guid: f5db17d1a05867944a6ea4d072e544ca,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

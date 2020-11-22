@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ef180c9d5db0042a1cfc2d5cdea466, type: 3}
+  m_Name: Reinforced Tower Shield
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 17400
+  weight: 3400
+  maxDurability: 3000
+  toolTip: '<b>{NAME}</b>
+
+    A heavy shield, good against heavy blows. Almost as good and heavy as any town
+    gate.
+
+
+    <i>Parry for {PARRYLEVEL}</i>
+
+    Probability: {PARRYPROBABILITY}
+
+    Luck: {PARRYLUCK}
+
+    Consumed damage: {PARRYDAMAGE}
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 1456a1e83c786b145ba236e1c30f2247, type: 3}
+  minLevel: 1
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 300
+  modelPrefab: {fileID: 7032154393044639007, guid: 1556ca61740ecdf4184eccb5d1eab095,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 2
+  manaBonus: 0
+  staminaBonus: 0
+  levelParry: 5
+  luckPortionParry: 0.037
+  luckMaxParry: 0.1
+  damageIgnore: 30
+  parryBestPortion: 0.15

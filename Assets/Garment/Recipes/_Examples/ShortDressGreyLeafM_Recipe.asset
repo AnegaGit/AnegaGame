@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
+  m_Name: ShortDressGreyLeafM_Recipe
+  m_EditorClassIdentifier: 
+  recipeType: Wardrobe
+  DisplayValue: HauberkM_Slot
+  compatibleRaces:
+  - HumanMale
+  wardrobeRecipeThumbs:
+  - race: HumanMale
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: Chest
+  Hides:
+  - MaleTorso
+  - BackskinM
+  - TrousersBeltBagM
+  - TrousersBeltPouchM
+  - LegArmorBeltM
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets:
+  - {fileID: 11400000, guid: 252fb3aec2cfd3f4bb4f626d18937065, type: 2}
+  - {fileID: 11400000, guid: 299e9db5a24dc5b4a847f030efde8cc3, type: 2}
+  - {fileID: 11400000, guid: dfbec56e8eec3c747b4caa37d02ae7e2, type: 2}
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"BasicHauberkM","scale":100,"copyIdx":-1,"overlays":[{"id":"HauberkBaseFineLinenM_Overlay","colorIdx":0,"rect":[0,0,0,0]},{"id":"HauberkApplicationFineLinenM_Overlay","colorIdx":1,"rect":[0,0,0,0]},{"id":"HauberkApplicationLeafsM_Overlay","colorIdx":2,"rect":[0,0,0,0]},{"id":"HauberkApplicationButtonsM_Overlay","colorIdx":3,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"-","colors":[89,89,89,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[41,41,43,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[47,89,54,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  replaces: Nothing

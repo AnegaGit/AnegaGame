@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a798300588a64089be0283e1a9ed53f, type: 3}
+  m_Name: Arrow
+  m_EditorClassIdentifier: 
+  itemName: Wooden Arrow
+  maxStack: 500
+  price: 45
+  weight: 20
+  maxDurability: 120
+  toolTip: '<b>{NAME}</b>
+
+    A simple wooden arrow you need for any bow.
+
+
+    Amount: {AMOUNT}
+
+    Price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 45f2df20e580e40edac68cdb712d1335, type: 3}
+  minLevel: 1
+  interactionRange: 3
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 120
+  modelPrefab: {fileID: 1036859284473516183, guid: 9a73c34bf265b9848a0ad7ec76521ba2,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ef32e00b9417a4ea6c442e40a049ba, type: 3}
+  m_Name: Cumunculus
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 85500
+  weight: 376
+  maxDurability: 50
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: a4f876d9ee28f4cad8cbde355e02f49d, type: 3}
+  minLevel: 0
+  interactionRange: 0
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 2058298080062055818, guid: 1b493f2780560eb4aa3e3935c3e57d32,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Calida Sisters
+  title: Cumunculus
+  bookText: "A tale according to oral tradition written down by the Calida sisters.\r\n\r\n<b>Preamble\r\n</b>\r\nThe
+    written book changes our world. Knowledge can be stored unchanged over long terms.
+    But in the same time stories told mouth-to-mouth over centuries are not told anymore
+    and got lost.\r\n<p>\r\nWe want to ensure that this valuable ancient knowledge
+    will not be lost for further generation with this collection of myth and tales.\r\n\r\n<i>Jaka
+    und Wilhelma Calida\r\n</i>\r\n<p><b>Once upon a time</b>\r\nthere was a farmer.
+    His wife gave birth to a girl and the child got the name Enchanta from her parents.
+    She was like the shine of the sun, sensible and hard working.\r\n\r\nIn school
+    her teacher found soon that there were powerful magic talents slumbered in her.<p>But
+    since his own arcane capability was at least lousy and he hated women he never
+    told anybody about and prohibited the girl to try and sharpen her talent.\r\n\r\nIn
+    her ninth year the mother of the girl died and within a year her father married
+    again.<p>Her stepmother brought 3 beloved sons with her. The boys got privileged
+    in every case. Enchanta was treated as the lowest ancilla only and had to serve
+    her stepbrothers all the day long.\r\n\r\nAll three boys showed magic talents
+    and the teacher offered to train them if the girl would stayed away from school.\r\n<p>One
+    of these days the stepmother said to Enchanta:\r\n'You are old enough to learn
+    the real important things of live. You have to know how to cook, wash, sew and
+    farm. There is a lot to do and no more time to put your nose in useless books
+    anymore.'\r\n<p>Enchanta was sad since the book had shown her a free and open
+    world. But without the money she had no right to go to school.\r\n\r\nYears came
+    and gone and the nice girl became a young women, nobody took care about. Her simple
+    grey coats were always dirty, no matter how much she tried to put them in order.\r\n<p>The
+    days where she had to tie up the rooms of her brothers were rays of hope for Enchanta.
+    She could have a look into the shool books and dive into the deep of the mysterious
+    world of magic.\r\nHer brothers never noticed if one book was away for some days
+    since they are more interested into other things than study.<p>But one day her
+    largest brother saw her browsing through one of the books he careless throw away.
+    He got angry and clubbed her out of the room.\r\n\r\nThat day Enchanta decide
+    that never ever anybody should learn how much she understood in the books.\r\n<p>From
+    time to time she tried the one or the other she read or heard.\r\n\r\nSoon she
+    became better but without a guidance of a mage and combining snapped portions
+    only she created extraordinary magic spells and unusual proceedings.\r\nWhile
+    washing she found pieces of gems. A piece of amethyst she hided in the brush of
+    her broom,<p> a piece of obsidian she pressed into the handle of her basket and
+    a piece of topaz into the foot of her spade. That way her daily tools became her
+    wands as well.\r\n<p>Her fast rising skill allowed her to summon a helper after
+    a short time. Combined out of parts taken from dead farm animals.\r\nCumunculus
+    helped her with all work, she were able to do far away from home.\r\nIt was very
+    ugly but Enchanta loved her being much, which had carefully to hide before all
+    eyes.\r\n<p>Years later her oldest stepbrother became adult and should enlisted
+    into the magic academy. A group of mages came to examine the skill and knowledge
+    of the boy. Her stepmother sent the young woman into the forest to collect berries
+    all the day to be out of the way. But the mages lost their way and met her and
+    her Cumunculus.<p>Enchanta showed the right way but the mages recognized Cumunculus
+    and tried to investigate him. The beast cried out of pain and the girl went in
+    between the men and her being so stop the pain. But the mages ignored Enchanta
+    and so she creates a tight wall in between the mages and herself and fled with
+    her being.<p>The mages destroyed the walls within minutes but where previously
+    was open forest they found a tight brush.\r\n\r\nThey asked a lot but nobody was
+    able to say who the unknown mage was.\r\n<p>One year later another group of mages
+    came to examine the second stepbrother. Again the men lost their way and found
+    Enchanta and Cumunculus. Again they examined the being and didn't stop as he beast
+    cried out of pain. The women made a storm and the eyes of the mages filled with
+    tears.<p>It took a few minutes to remove the dust from the eyes but the mages
+    found an impassable swamp that was not there before.\r\n\r\nThey asked a lot but
+    nobody was able to say who the unknown mage was. The smudgy ancilla nobody just
+    take into consideration.\r\n<p>In the third year, the mages came to examine the
+    third brother.\r\nThis time they were prepared because they couldn't forget the
+    power of the unknown mage and so the group lost the way intentionally. Again Enchanta
+    showed the men the way. But as the mages asked about her being she remembered
+    the pain and tried to flee.<p>The mages tried to freeze her but she broke the
+    mana structure. Finally she passed a portal with Cumunculus, As the mages followed
+    there was another portal again and again. After the seventh step they were back
+    at the origin and couldn\x19t say where they lost the women.\r\n<p>All what the
+    mages from the academy had was a basket; a young mage could snatched away during
+    the fight. He had seen how Enchanta used the handle as wand. It was found that
+    a tiny splint of a sapphire was hidden in the handle and that it needs an extraordinary
+    talent to use the handle accordingly. The studied mages decide to find the young
+    mage with all means.\r\n<p>There is no secret that it took 3 month to identify
+    Enchanta but mages know tricks, a normal person hardly can imagine. But this is
+    another story.\r\n<p>To invite Enchanta to study and teach at the academy the
+    Archmage himself came with seven famous professors.\r\n\r\nThe women became his
+    personal assistant and might have taken his position years later. But she loved
+    the freedom of the forest in the same way as the silence of the library and stayed
+    independent.\r\n<p>Cumunculus lived thoroughly happy until the end of his live
+    at the academy.\r\nThe novices loved him since he willingly helped to carry the
+    water and wash clothes, the young mages since he knew where to find each book
+    and gladly went to pick it up and the old mages because nobody else was able to
+    polish the old beloved wands like he.\r\n\r\n"
+  bookType: 3

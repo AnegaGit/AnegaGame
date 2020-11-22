@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f653a8b1ca60b47409f833726aa10a69, type: 3}
+  m_Name: Dark Sword
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 51200
+  weight: 2900
+  maxDurability: 2000
+  toolTip: '<b>{NAME}</b>
+
+    A sword from dark sources.
+
+    Some people do not like the wearer of such a weapon.
+
+
+    <i>{WEAPONSKILL} for {WEAPONLEVEL}</i>
+
+    Force: {WEAPONDAMAGE}
+
+    Luck: {WEAPONLUCKPORTION} up to {WEAPONLUCKMAX}x
+
+    Hits per time: {WEAPONFREQUENCY}
+
+
+    <i>Parry for {PARRYLEVEL}</i>
+
+    Probability: {PARRYPROBABILITY}
+
+    Luck: {PARRYLUCK}
+
+    Consumed damage: {PARRYDAMAGE}
+
+
+    Quality: {QUALITY}
+
+    Durability: {DURABILITY}
+
+    Standard price: {PRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 7170e3d22d3a445b3b69cc80b5c50d22, type: 3}
+  interactionRange: 2
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 300
+  modelPrefab: {fileID: 453257256216760315, guid: 5aeefa6386064d44f92d841264a7d7cc,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  category: Hand
+  healthBonus: 0
+  manaBonus: 0
+  staminaBonus: 0
+  levelParry: 3
+  luckPortionParry: 0.137
+  luckMaxParry: 5
+  damageIgnore: 0
+  parryBestPortion: 0
+  requiredAmmo: {fileID: 0}
+  defaultSpell: {fileID: 11400000, guid: 6872487e7d5f695419a86471314cfca4, type: 2}
+  skillWeapon: 2
+  levelWeapon: 2
+  luckPortionWeapon: 0.024
+  luckMaxWeapon: 7
+  maxDamage: 1000
+  attackTime: 1.2
+  attackRange: 1.1

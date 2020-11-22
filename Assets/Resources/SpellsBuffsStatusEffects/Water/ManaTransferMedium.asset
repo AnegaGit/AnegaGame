@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec926ce05000e4d3e8165891ee7c6f1f, type: 3}
+  m_Name: ManaTransferMedium
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Transfer Medium Mana
+  toolTip: '<b>{NAME}</b>
+
+    Replenish the mana bar of your target {HEALSMANA}
+
+    It cannot be used on yourself.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}'
+  image: {fileID: 21300000, guid: ea01a981276a9ae448201a2267a8fd7c, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 12
+  skillLevel: 25
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 2500
+  manaCostsMaster: 150
+  castTimeNewbe: 3.1
+  castTimeMaster: 0.8
+  cooldownNewbe: 16
+  cooldownMaster: 8
+  castRangeNewbe: 8
+  castRangeMaster: 26
+  castAnimation: SimpleSpell
+  castSound: {fileID: 0}
+  healsHealth: 0
+  healsMana: 800
+  isRealtveHeals: 0
+  luckPortion: 0.4
+  luckMax: 6
+  effect: {fileID: 8206998196788775632, guid: d0aaf9af3b148c4468ff2080eaf77cba, type: 3}
+  canHealSelf: 0
+  canHealOthers: 1

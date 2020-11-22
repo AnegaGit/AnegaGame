@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: Black Grain
+  m_EditorClassIdentifier: 
+  itemName: Black Grain
+  maxStack: 50
+  price: 9500
+  weight: 9
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    Eat and die.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 3e8fb0ac2b3b6e94a90859880035812a, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 3624242368888364140, guid: 551b98b4718fd614a9ec57a264f6ebfb,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

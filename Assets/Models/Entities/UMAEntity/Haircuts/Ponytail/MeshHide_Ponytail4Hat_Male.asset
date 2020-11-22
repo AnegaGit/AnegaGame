@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f7fb3ea5bac04a857e5f4a0b30077, type: 3}
+  m_Name: MeshHide_Ponytail4Hat_Male
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 11400000, guid: 1a270f52cb954d24890797e2b1a61bba, type: 2}
+  _assetSlotName: Ponytail_Male
+  _serializedFlags:
+  - flags: ffff2f69fdff0004ffbffe3f005aff3fffffa7ffffffffff7f5aff3fffffa7ffffffffffffffffffff1f18ffffffbf43eaffffcf7f0fa057dcf9ffffff07e0ffffffffff1f0000e0bba700f0dd0300c0000000480700a274002c1d00ffffffffffffff0f0000000000000000000000000000000000000000100000008000000000000000000000f2ffffffffffffff3f00ffffffffffffffffffc0f8faffffffff010000000000000000000000f0ffffef4520feffffffffffffffffffffffffffffffbf1781f8ffffffffffffffffffffffffff
+    Count: 1696

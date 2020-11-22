@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9f234426e03394c8f4b110e276e3d6, type: 3}
+  m_Name: Adventurer
+  m_EditorClassIdentifier: 
+  identifier: 3
+  headline: 'Adventure: the pursuit of life.'
+  description: 'You have been running for years. Be it a marriage proposal, a boring
+    job or a marauding band of mercenaries.
+
+    Wherever you go, you will find adventure.
+
+
+    So it was no coincidence that you were embarking on a ship whose destination you
+    did not care about.
+
+
+    For someone who wants to become an outstanding warrior, magician or craftsman
+    her setting is not suitable.
+
+    But alone in the wild, no problem. Her strengths are speed and perception. If
+    she can not kill, she bypass the monster running.'
+  playerClass: HumanFemale
+  apperance: 102910971029
+  attributes: ' 7 6 5 412 8 5 614 513 5'
+  abilities: 2323100121
+  skills: 2;1;3;2;4;3;
+  starterSet: {fileID: 11400000, guid: ed742617d1863954dafdec45c325aff6, type: 2}

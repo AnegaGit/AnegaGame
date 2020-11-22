@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: White Carrot
+  m_EditorClassIdentifier: 
+  itemName: White Carrot
+  maxStack: 20
+  price: 273
+  weight: 94
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    It tastes spicy and may help keep you healthy.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 74fe7e96a9d1b504198b645fe6980c65, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 900
+  modelPrefab: {fileID: 4804880790348673343, guid: 424f9b98df2eadd4db1a4a89b746aa42,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

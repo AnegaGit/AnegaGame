@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f7fb3ea5bac04a857e5f4a0b30077, type: 3}
+  m_Name: FemaleHair3_4_Hats_MeshHide
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 11400000, guid: 911a7511737178d4dbfe1ab52a2d8887, type: 2}
+  _assetSlotName: UMA_fem_hair_1_005
+  _serializedFlags:
+  - flags: 00c0ffff03000800200000000000000000000000000000c0ffffffffffffffffcf000000c0ffffffffffff3f00000000000000d0e1fffffffcff030000f0ffffff3fe003f0ff0080ffff0300fcff0f0000000000feffff07000000000000801f000000000080ffff9fe17f0000000060ffffffff0f00ffff000000feffffff03000000fccf0300fcfffbffffffffff00001000fefffdffffffffffff7f00e0fffe030300c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff0f00c00300f8ff1f00c0ffffffff030000c0fffff0c0ff013800e0ff3f0000fefffffedfffffffffffffff3f0000ffff0000fefffdfdff030030ff3f00c0cff03f003c00fcffffcf030000ffff0100f87ffe0100fe0780ffff070000f8ff1f00e0ffffffff03000000feffffff1f000000e0ffffffff0000001e80fffff3ffff0000fcffffff0100e0ffffff0100f8011e80ffff0300fcff0f00f0ff3f0000fc7f0000fcff0000ffff0300fcff0f0000
+    Count: 3244

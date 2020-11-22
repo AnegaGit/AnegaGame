@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f7fb3ea5bac04a857e5f4a0b30077, type: 3}
+  m_Name: MaleHair2_4_Hats_MeshHide
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 11400000, guid: b5a79dacb1617ae44a91c53832515bbb, type: 2}
+  _assetSlotName: MaleHair1
+  _serializedFlags:
+  - flags: ffffff00ff03cc23873f000000e0ff9f871fc01ffe1f000000007cfcffff07c0ffffffffffffffffffffffffff1b3c00f6ffff87ffffffffffff073ef80ff8ffbf7ffcff670080ff4701feffffffffffcfff8003feffff061800feffffff0fd0fff7ff07e0fff39f67dbffffffffffffe1bfe13ff0ffc30ffd3cfcffffffffffffffffffffffffffffffffffffffff03c3ffff3f000060fefb2fc07ffcffffffffffffff3f7f00feffffffffffffffffffff0139fcff0f0000e0e3f27f80ffffffffff31c0fd00030c308700030c30e2ffffffffffffffffffff3f00
+    Count: 1750

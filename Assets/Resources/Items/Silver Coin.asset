@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa77b90fb5cba84ab9a774b17ebc3e8, type: 3}
+  m_Name: Silver Coin
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 30000
+  price: 100
+  weight: 3
+  maxDurability: 100000
+  toolTip: '{AMOUNT} clinking silver coins.
+
+
+    Total value: {TOTALPRICE}'
+  image: {fileID: 21300000, guid: c460c49f97e0bb64ca456c460f3fec74, type: 3}
+  minLevel: 0
+  interactionRange: 1
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 600
+  modelPrefab: {fileID: 200276520505070323, guid: 5ce22748d82fb0545906a952fd0fc126,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

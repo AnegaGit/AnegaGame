@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad2a745cf9561f4d9cab90aa3b8eebf, type: 3}
+  m_Name: TeleportSelf
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Short Jump
+  toolTip: '<b>{NAME}</b>
+
+    Jump a short distance
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Distance: nothing to {TELEPORTDISTANCE} for higher skill
+
+    Useable for {CANTELEPORT}'
+  image: {fileID: 21300000, guid: f12256709a814414693d1069f6a849e1, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 13
+  skillLevel: 15
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 250
+  manaCostsMaster: 30
+  castTimeNewbe: 12
+  castTimeMaster: 6
+  cooldownNewbe: 24
+  cooldownMaster: 5
+  castRangeNewbe: 1
+  castRangeMaster: 1
+  castAnimation: LowSpell
+  castSound: {fileID: 0}
+  teleportDistance: 15
+  canTeleportSelf: 1
+  canTeleportPlayer: 0
+  canTeleportMonster: 0
+  area: 0
+  effect: {fileID: -4230311664346740293, guid: e500d86cd4833594a9623be1817ed4bc, type: 3}

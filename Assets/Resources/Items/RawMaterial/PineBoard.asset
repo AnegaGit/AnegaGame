@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e5995d811b4cefb0f9513f50a5732, type: 3}
+  m_Name: PineBoard
+  m_EditorClassIdentifier: 
+  itemName: Pine board
+  maxStack: 500
+  price: 32
+  weight: 137
+  maxDurability: 100
+  toolTip: '<b>{NAME}</b>
+
+    It is hard to see that it was a tree.
+
+
+    Quality: {QUALITY}
+
+    Toal price: {TOTALPRICE}
+
+    {TOTALWEIGHT}'
+  image: {fileID: 21300000, guid: 4dc03144795df29489e3835f4df5bb0e, type: 3}
+  minLevel: 0
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 0
+  decayTime: 1200
+  modelPrefab: {fileID: 7891320514258123476, guid: c03c22ea67051774dae42190c4bf8dba,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}

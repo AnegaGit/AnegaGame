@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnMinorManaTransfer
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 7200
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 5bd650dac701bad4f912acd53fc44aaa, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Anextlomarus
+  title: Minor Mana Transfer
+  bookText: 'Can''t you do magic? But maybe someone else needs your mana?
+
+
+    This is a little water magic spell without much results and cannot used on yourself.
+    Even a noob can learn and use it.'
+  bookType: 0
+  spell: {fileID: 11400000, guid: 2a64a97ce89f4634889d2178cbe8948c, type: 2}
+  minSkillLevel: 0

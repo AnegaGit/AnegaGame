@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389790c1e073c435695f4fc188184a2b, type: 3}
+  m_Name: Windwalk
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: '<b>{NAME}</b>
+
+    Increases movement speed for a while.
+
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Buff Time: {BUFFTIME}
+
+    Buffs speed: {BONUSSPEED}
+
+    Mana Costs: {MANACOSTS}'
+  image: {fileID: 21300000, guid: 51681a10a01f345a681a7ede63ffc6c0, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 0
+  skillLevel: 0
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 0
+  manaCostsMaster: 0
+  castTimeNewbe: 0
+  castTimeMaster: 0
+  cooldownNewbe: 0
+  cooldownMaster: 0
+  castRangeNewbe: 0
+  castRangeMaster: 0
+  castAnimation: 
+  castSound: {fileID: 0}
+  bonusHealthMin: 0
+  bonusHealthMax: 0
+  bonusManaMin: 0
+  bonusManaMax: 0
+  bonusDamageMin: 0
+  bonusDamageMax: 0
+  bonusDefenseMin: 0
+  bonusDefenseMax: 0
+  bonusBlockChanceMin: 0
+  bonusBlockChanceMax: 0
+  bonusCriticalChanceMin: 0
+  bonusCriticalChanceMax: 0
+  bonusHealthPercentPerSecondMin: 0
+  bonusHealthPercentPerSecondMax: 0
+  bonusManaPercentPerSecondMin: 0
+  bonusManaPercentPerSecondMax: 0
+  bonusSpeedMin: 0
+  bonusSpeedMax: 0
+  buffTime: 60
+  effect: {fileID: 0}
+  canBuffSelf: 1
+  canBuffOthers: 0
+  canBuffEnemies: 0

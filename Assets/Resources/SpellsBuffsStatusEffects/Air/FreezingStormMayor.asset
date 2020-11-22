@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39404fb41ac8a364fb1dd051a6465c02, type: 3}
+  m_Name: FreezingStormMayor
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Mayor Storm
+  toolTip: '<b>{NAME}</b>
+
+    Generates a veritable storm and stun everybody in range.
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Area: {DAMAGEAREA}
+
+    Stun: {STUNCHANCE} for {STUNTIME}
+
+    Can damage: {CANDAMAGE}'
+  image: {fileID: 21300000, guid: ccb29564eee0c38408885e5bc9029b69, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 0
+  skill: 13
+  skillLevel: 70
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 4000
+  manaCostsMaster: 700
+  castTimeNewbe: 10.4
+  castTimeMaster: 2.7
+  cooldownNewbe: 23
+  cooldownMaster: 14
+  castRangeNewbe: 12
+  castRangeMaster: 53
+  castAnimation: PushSpell
+  castSound: {fileID: 0}
+  maxDamage: 14
+  isRelativeDamage: 1
+  stunChance: 1
+  stunTimeMax: 22
+  luckPortion: 0.4
+  luckMax: 3
+  effect: {fileID: 4883814440066402941, guid: b47073792a2b710428f04e654954fc48, type: 3}
+  damageArea: 9
+  canDamageSelf: 0
+  canDamagePlayer: 1
+  canDamageMonster: 1

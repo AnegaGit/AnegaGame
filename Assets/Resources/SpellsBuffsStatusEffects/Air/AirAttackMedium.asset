@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df86bdb5207437cb20582b0b85ebcc, type: 3}
+  m_Name: AirAttackMedium
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Medium Wind Attack
+  toolTip: '<b>{NAME}</b>
+
+    Let the wind blow into you enemy face and stop it..
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Stun: {STUNCHANCE} for {STUNTIME}'
+  image: {fileID: 21300000, guid: fefdbd4eb6aa11249bba86db0488e355, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 13
+  skillLevel: 35
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 3000
+  manaCostsMaster: 300
+  castTimeNewbe: 3.3
+  castTimeMaster: 1.1
+  cooldownNewbe: 24
+  cooldownMaster: 7
+  castRangeNewbe: 12
+  castRangeMaster: 34
+  castAnimation: PushSpell
+  castSound: {fileID: 0}
+  maxDamage: 400
+  isRelativeDamage: 0
+  stunChance: 0.95
+  stunTimeMax: 12
+  luckPortion: 0.4
+  luckMax: 3
+  effect: {fileID: 4883814440066402941, guid: b47073792a2b710428f04e654954fc48, type: 3}

@@ -1,0 +1,25 @@
+Text
+----
+
+Window AddOn
+------------
+Source Image: Button
+Color: C0C0C0
+- ButtonClose
+  Source Image: Button
+  Normal Color: FFFFFF
+  Highlighted Color: 5A5A5A
+- Text Title
+  Color: EEEEEE
+- IconPanel
+  Source Image: Button
+  Normal Color: FFFFFF
+- - IconPanel
+    size: 24x24
+    Color: FFFFFF
+
+Input Field & Dropdowns
+-----------------------
+Source Image: SlotSmallFilled
+Normal Color: CBCBCB
+Highlighted Color: E0E0E0

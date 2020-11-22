@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ca4389658958640847add24b200357, type: 3}
+  m_Name: LearnTeleportGroup
+  m_EditorClassIdentifier: 
+  itemName: 
+  maxStack: 1
+  price: 35700
+  weight: 36
+  maxDurability: 100
+  toolTip: '{BOOKTITLE}'
+  image: {fileID: 21300000, guid: 22e64259abf1ddb41abe61aa5472c590, type: 3}
+  interactionRange: 1.5
+  pickable: 1
+  usableAsElement: 0
+  usableFromInventory: 1
+  decayTime: 1200
+  modelPrefab: {fileID: 8525716005193234937, guid: 25f4d9ea44c3ad14192894ebab1bb3f4,
+    type: 3}
+  animation: 
+  cooldownBuff: {fileID: 0}
+  author: Black Porter
+  title: Teleport Group
+  bookText: "<b>Teleport Groupl</b>\n\nDo you want to have someone else close to you?\r\nThis
+    is a spell that allows you to teleport other characters.\r\n\r\nHowever, they
+    have to agree, so you will need a lot of persuasion.\r\n<p> You cannot use this
+    spell on yourself.\r\nAll teleported character must be in a range of 5m to the
+    selected.\n\r\nYou should be at least an authority in air magic if you want to
+    learn it."
+  bookType: 1
+  spell: {fileID: 11400000, guid: f8568a114c341c94db3dfa60cc001964, type: 2}
+  minSkillLevel: 65

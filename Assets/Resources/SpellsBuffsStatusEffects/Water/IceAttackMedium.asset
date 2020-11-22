@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df86bdb5207437cb20582b0b85ebcc, type: 3}
+  m_Name: IceAttackMedium
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  displayName: Medium Ice Attack
+  toolTip: '<b>{NAME}</b>
+
+    Cool down your enemy with some damage and maybe freeze it..
+
+
+    Skill: {SKILL} ({SKILLLEVEL})
+
+    Mana Costs: {MANACOSTS}
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Range: {CASTRANGE}
+
+    Stun: {STUNCHANCE} for {STUNTIME}'
+  image: {fileID: 21300000, guid: c53f9b8054b13164497fff0dd8c979ed, type: 3}
+  showInSpellList: 1
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  skill: 12
+  skillLevel: 35
+  predecessor: {fileID: 0}
+  requiresWeapon: 0
+  manaCostsNewbe: 3000
+  manaCostsMaster: 300
+  castTimeNewbe: 3.3
+  castTimeMaster: 1.1
+  cooldownNewbe: 24
+  cooldownMaster: 7
+  castRangeNewbe: 12
+  castRangeMaster: 34
+  castAnimation: PushSpell
+  castSound: {fileID: 0}
+  maxDamage: 750
+  isRelativeDamage: 0
+  stunChance: 0.6
+  stunTimeMax: 9
+  luckPortion: 0.4
+  luckMax: 3
+  effect: {fileID: 114038526120822526, guid: 0127b3472a8af404489de95988a89b80, type: 3}
