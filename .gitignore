@@ -62,6 +62,6 @@ crashlytics-build.properties
 sync.ffs_db
 
 #local specifics
-/[Uu][Mm][Aa]/
-/[Ii]mported[Aa]ssets/
+/[Aa]ssets/[Uu][Mm][Aa]/
+/[Aa]ssets/[Mm]odels/[Ii]mported[Aa]ssets/
 NavMesh.asset
